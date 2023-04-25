@@ -9,7 +9,7 @@ public abstract class Transaction{
     protected String address
 
 
-    public Bank(String accountFrom, String accountTo, double amount, String date, String transactionType, boolean domestic, int refNumber String address) {
+    public Transaction(String accountFrom, String accountTo, double amount, String date, String transactionType, boolean domestic, int refNumber String address) {
         this.accountFrom = accountFrom;
         this.accountTo = accountTo;
         this.amount = amount;
