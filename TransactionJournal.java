@@ -1,6 +1,6 @@
 public abstract class TransactionJournal{
     protected String journalName;
-    protected String transactions;
+    protected ArrayList<Transaction>;
 
 
 

@@ -3,10 +3,10 @@ public abstract class Bank{
     protected String bankName;
 
     protected String address;
-    protected String accounts;
-    protected String employees;
-    protected String clients;
-    protected String transactionJournal;
+    protected ArrayList<Account>;
+    protected ArrayList<Employee>;
+    protected ArrayList<Client>;
+    protected ArrayList<TransactionJournal>;
 
 
 
