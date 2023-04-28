@@ -1,7 +1,7 @@
 public abstract class Address{
-    protected String streetAddress;
-    protected String cityState;
-    protected int zipCode;
+    private String streetAddress;
+    private String cityState;
+    private int zipCode;
 
 
 
@@ -11,7 +11,35 @@ public abstract class Address{
         this.zipCode = zipCode;
     }
 
+    public String getStreetAddress() {
+        return streetAddress;
+    }
 
+    public void setStreetAddress(String streetAddress) {
+        this.streetAddress = streetAddress;
+    }
 
+    public String getCityState() {
+        return cityState;
+    }
 
+    public void setCityState(String cityState) {
+        this.cityState = cityState;
+    }
+
+    public int getZipCode() {
+        return zipCode;
+    }
+
+    public void setZipCode(int zipCode) {
+        this.zipCode = zipCode;
+    }
+    @Override
+    public String toString() {
+        return {" +
+                "streetAddress=" + streetAddress +
+                ", cityState=" + cityState +
+                ", zipCode=" + zipCode +
+                '}';
+    }
 }

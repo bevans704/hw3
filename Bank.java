@@ -11,7 +11,7 @@ public abstract class Bank implements IBank{
 
 
 
-    public Bank(String bankID, String bankName, Address address, ArrayList<Account>, ArrayList<Employee>, ArrayList<Client>, TransactionJournal transactionJournal) {
+    public Bank(String bankID, String bankName, Address address, ArrayList<Account> accounts, ArrayList<Employee> employees, ArrayList<Client> clients, TransactionJournal transactionJournal) {
         this.bankID = bankID;
         this.bankName = bankName;
         this.address = address;
